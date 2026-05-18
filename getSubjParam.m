@@ -3,9 +3,9 @@ function param = getSubjParam(pp)
 %% participant-specific notes
 
 %% set path and pp-specific file locations
-unique_numbers = [48, 39, 43, 32, 70]; %needs to be in the right order
+unique_numbers = [48, 39, 43, 32, 70, 30, 21, 79, 69, 94, 42, 53]; %needs to be in the right order
 
-param.path = '/Users/merelvansteenis/Documents/Cognitive Neuropsychology/PSR/m6 - auditory';
+param.path = '/Users/merelvansteenis/Documents/m6 - auditory/';
 
 if pp < 10
     param.subjName = sprintf('pp0%d', pp);
